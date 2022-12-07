@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "title": "Bankers & Bonkers",
+    "info": "Bankers & Bonkers is a team-based multiplayer game where two teams will fight using power-ups to get the money case found in the map and fill it as much as possible with the money spread around the map.",
+    "mainRole": ["Game Designer", "Multiplayer Programmer"],
+    "year": "2020"
+  },
+  {
+    "id": 1,
+    "title": "Flag Hunters",
+    "info": "Flag Haunters is a multiplayer game based on the classic game mode of capturing the flag, in Flag Haunters a group of furry animals gather in this exciting battle to see who can capture more flags.",
+    "mainRole": ["Multiplayer Programmer"],
+    "year": "2019 - 2020"
+  },
+  {
+    "id": 1,
+    "title": "Egyptian crusaders",
+    "info": "A turn-based-combat game with a procedural dungeon creator. With Egyptian esthetic, were you can create your team choosing between 5 clases with diferents abilities.",
+    "mainRole": ["Gameplay Programmer"],
+    "year": "2018 - 2019"
+  }
+]

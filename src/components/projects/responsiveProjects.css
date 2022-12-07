@@ -1,0 +1,104 @@
+.responsive__projects{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.responsive__projects-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive__projects-text_container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.responsive__projects-header_container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0.5rem 0;
+}
+
+.responsive__projects-title{
+    font-size: var(--font-size-subtitle);
+}
+
+.responsive__projects-years{
+    font-size: var(--font-size-text);
+}
+
+.responsive__project-title_underline{
+    position: absolute;
+    width: 100%;
+    height: var(--underline-height);
+    margin-top: 25px;
+    background-color: rgb(var(--primary-color));
+    border-radius: var(--border-radius);
+}
+
+.responsive__projects-description{
+    margin: 1rem 0;
+    font-size: var(--font-size-text);
+    font-style: italic;
+    line-height: var(--line-height);
+}
+
+.responsive__roles-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive__roles{
+    font-size: var(--font-size-text);
+    font-style: italic;
+}
+
+.responsive__project-button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1.5rem;
+}
+
+.responsive__project-btn{
+    background: rgb(var(--primary-color));
+    color: rgb(var(--text-color));
+    font-style: italic;
+    font-size: var(--font-size-annotations);
+    padding: 0.7rem 1rem;
+    border-radius: var(--border-radius);
+    border: none;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .responsive__projects-title{
+        font-size: var(--font-size-text);
+    }
+
+    .responsive__projects-description{
+        margin: 1rem 0;
+        font-size: var(--font-size-annotations);
+        font-style: italic;
+        line-height: var(--line-height);
+    }
+
+    .responsive__roles{
+        font-size: var(--font-size-annotations);
+        font-style: italic;
+    }
+}

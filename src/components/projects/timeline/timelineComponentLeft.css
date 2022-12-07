@@ -1,0 +1,11 @@
+.timeline__component-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roles__left-container{
+    margin-left: 3rem;
+    margin-top: -6rem;
+}
+

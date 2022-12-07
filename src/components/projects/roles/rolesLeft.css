@@ -1,0 +1,34 @@
+.roles__left{
+    display: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: var(--font-size-annotations);
+}
+
+.years__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline__decorator-left_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 180deg;
+}
+
+.roles__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-style: italic;
+}
+
+.roles__list{
+    width: 100px;
+    list-style-position: outside;
+    margin-left: 1.5rem;
+}

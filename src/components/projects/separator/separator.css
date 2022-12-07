@@ -1,0 +1,24 @@
+.separator{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border: var(--border-size) solid rgb(var(--primary-color));
+    border-radius: 50%;
+    background-color: rgb(var(--secondary-color));
+}
+
+.line{
+    width: 150px;
+    height: var(--underline-height);
+    margin-left: -2px;
+    background-color: rgb(var(--primary-color));
+    border-radius: var(--border-radius);
+}
+

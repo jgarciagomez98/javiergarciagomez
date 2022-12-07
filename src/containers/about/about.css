@@ -1,0 +1,108 @@
+.about {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(rgb(var(--secondary-color)), 20%, rgb(var(--background-color)));
+}
+
+.about__container{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: var(--max-width);
+    margin: 3rem;
+}
+
+.about__content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.about__img-container{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.about__img{
+    margin-top: -50px;
+    max-width: 250px;
+    border: var(--border-size) solid rgb(var(--primary-color));
+    border-radius: var(--border-radius);
+
+    box-shadow: -15px 15px 0 0 rgb(var(--background-color)) , -15px 15px 0 3px rgb(var(--primary-color));
+}
+
+.about__text-container{
+    display: block;
+    margin: 5rem 0;
+}
+
+.about__text{
+    font-size: var(--font-size-text);
+    line-height: var(--line-height);
+}
+
+.skills__container{
+    display: grid;
+    margin: 2rem 0;
+    grid-template-columns: repeat(2, 110px);
+    gap: 0.8rem;
+}
+
+.skills{
+    list-style: none;
+    font-size: var(--font-size-annotations);
+}
+
+.skills::before{
+    content: "\25B6";
+    color: rgb(var(--primary-color));
+    display: inline-block;
+    width: 1.2em;
+}
+
+/* Responsive navbar */
+@media screen and (max-width: 500px) {
+    .about__content-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    /* About IMG */
+    .about__img-container{
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+        max-width: 250px;
+        border: var(--border-size) solid rgb(var(--primary-color));
+        border-radius: var(--border-radius);
+    
+        box-shadow: -15px 15px 0 0 rgb(var(--background-color)) , -15px 15px 0 3px rgb(var(--primary-color));
+    }
+
+    /* About description */
+    .about__text-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

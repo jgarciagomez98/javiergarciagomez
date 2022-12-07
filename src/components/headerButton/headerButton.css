@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 2rem;
+
+    border: var(--border-size) solid rgb(var(--primary-color));
+    border-radius: var(--border-radius);
+    background-color: transparent;
+
+    transition: 0.15s ease-out;
+}
+
+.text {
+    font-size: var(--font-size-subtitle);
+}
+
+.button:hover {
+    background-color: rgba(var(--primary-color), 0.2);
+    scale: 1.05;
+}

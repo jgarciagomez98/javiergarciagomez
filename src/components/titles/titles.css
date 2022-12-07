@@ -1,0 +1,32 @@
+.titles{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem 0 5rem 0;
+}
+
+.titles__container{
+    display: flex;
+}
+
+.title{
+    position: relative;
+    display: flex;
+    font-size: var(--font-size-title);
+    justify-content: center;
+    align-items: center;
+}
+
+.title__underline{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: var(--underline-height);
+    margin-top: 3.5rem;
+
+    background-color: rgb(var(--primary-color));
+    border-radius: var(--border-radius);
+}

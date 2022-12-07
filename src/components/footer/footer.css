@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 0;
+}
+
+.footer__container{
+    display: block;
+}
+
+.footer__media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.footer__icon{
+    margin: 0 0.5rem;
+    padding: 0.3rem;
+
+    color: rgb(var(--text-color));
+    cursor: pointer;
+
+    transition: 0.2s ease-out;
+}
+
+.footer__text{
+    font-size: var(--font-size-annotations);
+    text-align: center;
+}
+
+.footer__icon:hover{
+    color: rgb(var(--primary-color));
+}
