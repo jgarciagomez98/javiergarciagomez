@@ -83,6 +83,7 @@ function Navbar() {
       link.classList.remove("active");
       if (link.classList.contains(current + "__link")) {
         link.classList.add("active");
+        //console.log(link);
       }
     });
   });
