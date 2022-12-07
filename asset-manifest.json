@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/javiergarciagomez/static/css/main.1479f604.css",
+    "main.js": "/javiergarciagomez/static/js/main.8c6fe82e.js",
+    "static/media/bankers_img.png": "/javiergarciagomez/static/media/bankers_img.23a93a40b8c86e50701d.png",
+    "static/media/egyptian_img.jpg": "/javiergarciagomez/static/media/egyptian_img.294225ef0ad41d6b516c.jpg",
+    "static/media/flag_img.jpg": "/javiergarciagomez/static/media/flag_img.bb74f93a6f44945e90fc.jpg",
+    "static/media/about_img.jpeg": "/javiergarciagomez/static/media/about_img.44abaea7725cbab40992.jpeg",
+    "index.html": "/javiergarciagomez/index.html",
+    "main.1479f604.css.map": "/javiergarciagomez/static/css/main.1479f604.css.map",
+    "main.8c6fe82e.js.map": "/javiergarciagomez/static/js/main.8c6fe82e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1479f604.css",
+    "static/js/main.8c6fe82e.js"
+  ]
+}
