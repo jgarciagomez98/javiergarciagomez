@@ -4,6 +4,7 @@
     height: auto;
     justify-content: center;
     align-items: center;
+    /* margin-top: 8rem; */
 
     /* background: linear-gradient(rgb(var(--secondary-color)), 20%, rgb(var(--background-color))); */
     background: rgb(var(--background-color));
@@ -42,7 +43,6 @@
 
 .about__text-container{
     display: block;
-    margin: 5rem 0;
 }
 
 .about__text{
@@ -73,6 +73,9 @@
 
 /* Responsive navbar */
 @media screen and (max-width: 500px) {
+    .about {
+        margin-top: 8rem;
+    }
     .about__content-container{
         display: block;
         justify-content: center;
@@ -104,8 +107,10 @@
     /* About description */
     .about__text-container{
         display: block;
+        margin-top: 3rem;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    
 }
