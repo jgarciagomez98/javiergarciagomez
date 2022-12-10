@@ -4,7 +4,8 @@
     height: 90vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(var(--background-color)), 80%, rgb(var(--secondary-color)));
+    /* background: linear-gradient(rgb(var(--background-color)), 80%, rgb(var(--secondary-color))); */
+    background: rgb(var(--background-color));
 
     line-height: var(--line-height);
 }
@@ -27,13 +28,18 @@
     max-width: var(--max-width);
 }
 
+h1{
+    font-weight: 400;
+}
+
 .subtitle {
     font-size: var(--font-size-subtitle);
-    color: rgb(var(--primary-color));
+    color: rgb(var(--text-color));
 }
 
 .home__title {
     font-size: var(--font-size-title);
+    color: rgb(var(--primary-color));
     margin: 1rem 0;
 }
 

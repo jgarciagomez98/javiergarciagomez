@@ -13,6 +13,7 @@
 
 .text {
     font-size: var(--font-size-subtitle);
+    font-weight: 300;
 }
 
 .button:hover {

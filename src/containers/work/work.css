@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(rgb(var(--background-color)), 80%, rgb(var(--secondary-color)));
+    /* background: linear-gradient(rgb(var(--background-color)), 80%, rgb(var(--secondary-color))); */
+    background: rgb(var(--background-color));
 }
 
 .work__container{
@@ -17,11 +18,11 @@
 
 .timeline__decorator{
     position: absolute;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-right: 50%;
     margin-left: 50%;
     width: var(--underline-height);
-    height: 650px;
+    height: 840px;
     background-color: rgb(var(--secondary-color));
     border-radius: var(--border-radius);
 }

@@ -43,7 +43,8 @@
 
 .project__description{
     font-size: var(--font-size-annotations);
-    font-style: italic;
+    font-weight: 300;
+    /* font-style: italic; */
 }
 
 
@@ -56,7 +57,7 @@
 .project__btn{
     background: rgb(var(--primary-color));
     color: rgb(var(--text-color));
-    font-style: italic;
+    /* font-style: italic; */
     font-size: var(--font-size-annotations);
     padding: 0.7rem 1rem;
     border-radius: var(--border-radius);

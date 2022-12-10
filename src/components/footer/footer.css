@@ -29,6 +29,7 @@
 
 .footer__text{
     font-size: var(--font-size-annotations);
+    font-weight: 300;
     text-align: center;
 }
 

@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(rgb(var(--secondary-color)), 20%, rgb(var(--background-color)));
+    /* background: linear-gradient(rgb(var(--secondary-color)), 20%, rgb(var(--background-color))); */
+    background: rgb(var(--background-color));
 }
 
 .about__container{
@@ -46,19 +47,21 @@
 
 .about__text{
     font-size: var(--font-size-text);
+    font-weight: 400;
     line-height: var(--line-height);
 }
 
 .skills__container{
     display: grid;
     margin: 2rem 0;
-    grid-template-columns: repeat(2, 110px);
+    grid-template-columns: repeat(2, 135px);
     gap: 0.8rem;
 }
 
 .skills{
     list-style: none;
     font-size: var(--font-size-annotations);
+    font-weight: 300;
 }
 
 .skills::before{
